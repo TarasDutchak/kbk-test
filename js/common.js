@@ -191,35 +191,35 @@ $('#videopop.modal1 button.close').click(function(){
 $('.advplus .phonemore span.more').click(function(){
   $('.advplus .row .col-lg-6:not(:first-child)').show();
   $(this).hide();
-  $('.phonemore span.less').show();
+  $('.advplus .phonemore span.less').show();
 });
 $('.advplus .phonemore span.less').click(function(){
   $('.advplus .row .col-lg-6:not(:first-child)').hide();
   $(this).hide();
-  $('.phonemore span.more').show();
+  $('.advplus .phonemore span.more').show();
 });
 
 // -
 $('.comf-house .phonemore span.more').click(function(){
   $('.comf-house .row.descrtext').addClass('showcont');
   $(this).hide();
-  $('.phonemore span.less').show();
+  $('.comf-house .phonemore span.less').show();
 });
 $('.comf-house .phonemore span.less').click(function(){
   $('.comf-house .row.descrtext').removeClass('showcont');
   $(this).hide();
-  $('.phonemore span.more').show();
+  $('.comf-house .phonemore span.more').show();
 });
 // -
 $('.secretsect .phonemore span.more').click(function(){
   $('.secretsect .row.secretsect__descr').addClass('showcont');
   $(this).hide();
-  $('.phonemore span.less').show();
+  $('.secretsect .phonemore span.less').show();
 });
 $('.secretsect .phonemore span.less').click(function(){
   $('.secretsect .row.secretsect__descr').removeClass('showcont');
   $(this).hide();
-  $('.phonemore span.more').show();
+  $('.secretsect .phonemore span.more').show();
 });
 // .secretsect .phonemore
 

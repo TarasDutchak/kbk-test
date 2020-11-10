@@ -1978,6 +1978,9 @@
 }
 
 @media(max-width:374.8px) {
+    .calcform .calcback {
+        text-align: center;
+    }
     .tabletvideo span {
         font-size: 14px;
         left: -27px;
