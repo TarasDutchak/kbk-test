@@ -2190,7 +2190,8 @@ footer {
 
 .reviews__rightsect .tanspar-btn span text svg,
 .phonemore, 
-.advplus-bottsect .picsect.phoneshow {
+.advplus-bottsect .picsect.phoneshow,
+.phonefooter-social {
     display: none;
 }
 
