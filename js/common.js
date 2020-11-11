@@ -6,7 +6,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        dots: true
+        dots: true,
+        autoplay: true
       });
 
       // plus btn - main page
@@ -221,7 +222,17 @@ $('.secretsect .phonemore span.less').click(function(){
   $(this).hide();
   $('.secretsect .phonemore span.more').show();
 });
-// .secretsect .phonemore
+// 
 
+// menu
+$('.burger').click(function(){
+  $('.mobilemenu').addClass('showmenu');
+  $('body').addClass('bodyhidden');
+});
+
+$('.closemenu').click(function(){
+  $('.mobilemenu').removeClass('showmenu');
+  $('body').removeClass('bodyhidden');
+});
 
 });
