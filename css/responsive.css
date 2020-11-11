@@ -3,6 +3,9 @@
     .mainsection__slider .slick-slide .picbox {
         height: 100%;
     }
+    .mainsection__slider .textbox {
+        background-size: 100%;
+    }
 }
 @media(min-width:1600px) {
     .container {
