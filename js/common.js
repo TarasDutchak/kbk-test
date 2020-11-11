@@ -188,6 +188,16 @@ $('#videopop.modal1 button.close').click(function(){
   });
 });
 
+$(document).click(function (event) {
+  let $target = $(event.target);
+  if (!$target.closest('#videopop.modal1 .modal-content').length) {
+    $('.yvideo').each(function(){
+      var el_src = $(this).attr("src");
+      $(this).attr("src",el_src);
+    });
+  }
+});
+
 // show more
 $('.advplus .phonemore span.more').click(function(){
   $('.advplus .row .col-lg-6:not(:first-child)').show();
