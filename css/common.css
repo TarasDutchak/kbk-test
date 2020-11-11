@@ -215,6 +215,7 @@ header.header {
 .mainsection__aboutbox .video-block .playbtn svg {
     width: 100%;
     filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.3));
+    height: auto;
 }
 
 .mainsection__aboutbox .video-block .playbtn svg path,
