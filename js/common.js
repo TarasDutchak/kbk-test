@@ -235,4 +235,24 @@ $('.closemenu').click(function(){
   $('body').removeClass('bodyhidden');
 });
 
+// zoom
+// $('.imageZoom').imageZoom();
+$(function(){
+    $(".example").imagezoomsl();
+  });
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
