@@ -2404,7 +2404,21 @@ body.bodyhidden {
     filter: brightness(0.5);
 }
 
-
+.built-houses.keyhouse .keyhouse__box-pic:before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
 
 
 

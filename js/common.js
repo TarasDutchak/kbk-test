@@ -246,11 +246,7 @@ $('.closemenu').click(function(){
 });
 
 // zoom
-// $('.imageZoom').imageZoom();
-$(function(){
-    $(".example").imagezoomsl();
-  });
-  
+
 
 
 
