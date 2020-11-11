@@ -113,6 +113,7 @@ header.header {
     width: 100%;
     max-width: 71.8%;
     flex: 0 0 71.8%;
+    position: relative;
 }
 
 .mainsection__rightsect {
@@ -266,14 +267,14 @@ header.header {
     object-position: 50% 50%;
 }
 
-.mainsection__slider .slick-slide .textbox {
+.mainsection__slider .textbox {
     /* height: 60vh; */
     height: 590px;
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
-    z-index: 2;
+    /* z-index: 2; */
     background-image: url('../img/slider-bottpic.png');
     background-repeat: no-repeat;
     background-position: top right;
@@ -448,6 +449,7 @@ header.header {
     user-select: none;
     color: transparent;
     outline: none;
+    z-index: 1;
 }
 
 .main-slider .slick-dots li {

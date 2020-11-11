@@ -80,6 +80,7 @@
     .mainsection,
     .slidem-sect {
         min-height: 750px;
+        max-height: 900px;
     }
 
     .leftsedebar {
@@ -197,7 +198,7 @@
         vertical-align: -3px;
     }
 
-    .mainsection__slider .slick-slide .textbox {
+    .mainsection__slider .textbox {
         height: 475px;
     }
 
@@ -688,11 +689,11 @@
         margin-bottom: 25px;
     }
 
-    .mainsection__slider .slick-slide .textbox {
+    .mainsection__slider .textbox {
         padding-bottom: 20px;
     }
 
-    .mainsection__slider .slick-slide .textbox {
+    .mainsection__slider .textbox {
         height: 400px;
     }
 
@@ -856,11 +857,11 @@
         height: 75%;
     }
 
-    .mainsection__slider .slick-slide .textbox {
+    .mainsection__slider .textbox {
         padding-bottom: 40px;
     }
 
-    .mainsection__slider .slick-slide .textbox {
+    .mainsection__slider .textbox {
         height: 55%;
     }
 
@@ -1349,13 +1350,13 @@
         padding: 0 15px;
     }
 
-    .mainsection__slider .slick-slide .textbox {
+    .mainsection__slider .textbox {
         height: 433px;
         background-image: url('../img/mobsliderbg.png');
         background-size: 100% auto;
     }
 
-    .mainsection__slider .slick-slide .textbox:after {
+    .mainsection__slider .textbox:after {
         content: '';
         display: block;
         background-color: #fff;

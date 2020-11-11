@@ -7,7 +7,7 @@ $(document).ready(function(){
         arrows: false,
         fade: true,
         dots: true,
-        autoplay: true
+        // autoplay: true
       });
 
       // plus btn - main page
