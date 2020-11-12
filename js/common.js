@@ -246,7 +246,14 @@ $('.closemenu').click(function(){
 });
 
 // zoom
-
+$('[data-fancybox]').fancybox({
+	toolbar  : false,
+	smallBtn : true,
+	// iframe : {
+	// 	preload : false
+  // }
+  
+});
 
 
 

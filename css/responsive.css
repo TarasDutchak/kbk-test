@@ -3,10 +3,12 @@
     .mainsection__slider .slick-slide .picbox {
         height: 100%;
     }
+
     .mainsection__slider .textbox {
         background-size: 100% 100%;
     }
 }
+
 @media(min-width:1600px) {
     .container {
         max-width: 1300px;
@@ -22,7 +24,7 @@
     }
 }
 
-@media(min-width:1850px) {
+@media(min-width:1851px) {
     .container {
         max-width: 1560px;
     }
@@ -72,6 +74,10 @@
     .buildnow-slider .slick-prev,
     .buildnow-slider .slick-next {
         top: 330px;
+    }
+
+    .built-houses.keyhouse .row .col-md-6:nth-child(even) .descrbox {
+        margin-left: 0;
     }
 
 
@@ -552,6 +558,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
     .reviews .slick-next,
     .reviews .slick-prev,
     .buildnow-slider .slick-prev,
@@ -809,6 +824,17 @@
         font-size: 14px;
     }
 
+    .built-firstscreen {
+        height: 600px;
+    }
+
+    .built-firstscreen .fig1 {
+        height: 400px;
+    }
+
+    .built-houses .container {
+        margin-top: -150px;
+    }
 
 }
 
@@ -940,7 +966,7 @@
         -moz-transition: .3s;
         -ms-transition: .3s;
         -o-transition: .3s;
-}
+    }
 
     .mobilemenu.showmenu {
         opacity: 1;
@@ -1023,9 +1049,8 @@
         justify-content: space-between;
     }
 
-    .mobilemenu-sectwrapp {
-        
-    }
+    .mobilemenu-sectwrapp {}
+
     .scrollsect {
         min-height: 640px;
         display: flex;
@@ -1047,7 +1072,7 @@
         height: 100%;
     }
 
-   
+
 }
 
 @media(max-width:991.8px) {
@@ -1314,7 +1339,23 @@
         width: 68px;
     }
 
+    .built-houses.keyhouse .row .col-md-6:nth-child(even) .keyhouse__box-descr {
+        justify-content: flex-start;
+    }
 
+    .built-houses.keyhouse .row .col-md-6:nth-child(even) .descrbox {
+        right: 0;
+        left: initial;
+        margin-right: -15px;
+    }
+
+    .pagination-sect ul li a, .pagination-sect ul li span {
+        font-size: 18px;
+    }
+
+    .pagination-sect ul li {
+        margin: 0 8px;
+    }
 
 }
 
@@ -2068,6 +2109,7 @@
         align-items: center;
         margin-bottom: 45px;
     }
+
     .mobilemenu__header-body ul.mobilemenu__nav li a {
         font-size: 16px;
     }
@@ -2075,6 +2117,44 @@
     .scrollsect {
         min-height: 662px;
     }
+
+    .built-houses.keyhouse .row .col-md-6:nth-child(even) .descrbox {
+        margin-right: 0;
+    }
+
+    .pagination-sect ul li {
+        margin: 0 4px;
+    }
+
+    .built-firstscreen .fig1 {
+        height: 300px;
+    }
+
+    .built-firstscreen .fig1 {
+        bottom: -1px;
+    }
+
+    .built-houses .container {
+        margin-top: -200px;
+    }
+
+    .built-houses .built-houses__subtitle {
+        font-size: 14px;
+        line-height: 170%;
+        text-align: right;
+    }
+
+    .built-houses .built-houses__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .built-firstscreen {
+        height: 500px;
+    }
+
+
+
+
 
 
 
