@@ -248,7 +248,8 @@ $('.closemenu').click(function(){
 // zoom
 $('[data-fancybox]').fancybox({
 	toolbar  : false,
-	smallBtn : true,
+  smallBtn : true,
+  gutter: 10,
 	// iframe : {
 	// 	preload : false
   // }

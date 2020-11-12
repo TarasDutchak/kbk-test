@@ -2152,8 +2152,12 @@
         height: 500px;
     }
 
-
-
+    .fancybox-image {
+        padding: 10px;
+    }
+    .fancybox-close-small {
+        right: 0;
+    }
 
 
 
