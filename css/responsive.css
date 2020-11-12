@@ -993,7 +993,8 @@
         margin-bottom: 30px;
     }
 
-    .mobilemenu__header-body ul.mobilemenu__nav li a {
+    .mobilemenu__header-body ul.mobilemenu__nav li a
+      {
         font-weight: 500;
         font-size: 20px;
         line-height: 20px;
@@ -1006,7 +1007,8 @@
         -o-transition: .3s;
     }
 
-    .mobilemenu__header-body ul.mobilemenu__nav li a:hover {
+    .mobilemenu__header-body ul.mobilemenu__nav li a:hover,
+    .mobilemenu__header-body ul.mobilemenu__nav li.active a {
         color: #9BC427;
     }
 
