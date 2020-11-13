@@ -96,7 +96,7 @@ header.header {
 }
 
 .header__menu ul li a:hover,
-.header__menu ul li.active a  {
+.header__menu ul li.active a {
     text-decoration: none;
     color: #9BC427;
 }
@@ -2267,38 +2267,15 @@ body.bodyhidden {
 
 /* ПОБУДОВАНО */
 
-.built-firstscreen {
-    height: 800px;
-    overflow: hidden;
-    position: relative;
-}
-
-.built-firstscreen>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
-}
 
 .built-houses {
     position: relative;
 }
 
-.built-firstscreen .fig1 {
-    position: absolute;
-    right: 0;
-    bottom: -75px;
-    height: 600px;
-    width: 100%;
-    background-image: url('../img/built-figure.png');
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: cover;
-}
+
 
 .built-houses .container {
     position: relative;
-    margin-top: -250px;
 }
 
 .built-houses h1 {
@@ -2312,7 +2289,7 @@ body.bodyhidden {
     color: #181818;
     font-size: 20px;
     line-height: 170%;
-    margin-bottom: 70px;
+    margin-bottom: 84px;
 }
 
 .built-houses.keyhouse:before {
@@ -2372,13 +2349,15 @@ body.bodyhidden {
     border: 10px solid #fff !important;
     box-shadow: 0 0 30px #000;
 }
+
 .keyhouse__box-pic {
     position: relative;
 }
+
 .keyhouse__box-pic:after {
     content: '';
     display: inline-block;
-   
+
 }
 
 .keyhouse__box-pic img {
@@ -2422,6 +2401,7 @@ body.bodyhidden {
     -ms-transition: .3s;
     -o-transition: .3s;
 }
+
 .keyhouse__box-descr .titlebox a.name:hover {
     color: #9BC427;
 }
@@ -2429,6 +2409,58 @@ body.bodyhidden {
 header.header {
     z-index: 11;
 }
+
+.built-houses.keyhouse {
+    padding-top: 240px;
+}
+
+.header.whiteheader {
+    background: #fff;
+}
+
+.header.whiteheader .header__menu ul li a {
+    color: #181818;
+}
+
+.header.whiteheader .header__menu ul li.active a {
+    color: #9BC427;
+}
+
+.header.whiteheader .header__phonebox {
+    border: 1px solid #181818;
+}
+
+.header.whiteheader .header__phonebox a {
+    color: #181818;
+}
+
+.header.whiteheader .header__phonebox a:hover {
+    color: #9BC427;
+}
+
+.keyhouse__box-descr .titlebox .descrp {
+    color: #fff;
+    font-size: 24px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.keyhouse__box-descr .titlebox .descrp:hover {
+    color: #9BC427;
+}
+
+.built-houses.keyhouse .keyhouse__box-descr .titlebox {
+    max-width: 547px;
+    padding-right: 10px;
+}
+
+
 
 /* 
 font-family: 'Montserrat', sans-serif;
