@@ -256,9 +256,12 @@ $('[data-fancybox]').fancybox({
   
 });
 
+// price page
 
-
-
+$('.prtitlerow').click(function(){
+  $(this).not('.nodrop').toggleClass('show');
+  $(this).parents('.col-lg-6').siblings('.descrrow').slideToggle();
+});
 
 
 
