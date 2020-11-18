@@ -1552,7 +1552,13 @@
 }
 
 @media(max-width:575.8px) {
-
+    .prtitlerow.show p:before {
+        transform: rotate(-180deg) translateY(50%);
+        -webkit-transform: rotate(-180deg) translateY(50%);
+        -moz-transform: rotate(-180deg) translateY(50%);
+        -ms-transform: rotate(-180deg) translateY(50%);
+        -o-transform: rotate(-180deg) translateY(50%);
+}
     .freecalc,
     .buildnow {
         overflow: hidden;
