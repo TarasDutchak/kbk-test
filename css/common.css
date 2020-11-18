@@ -2729,7 +2729,9 @@ header.fixed .header__phonesect .phonebtn .header__phonebox:hover {
     display: block;
 }
 
-
+.header.whiteheader .header__menu ul li a:hover, .header.fixed .header__menu ul li a:hover {
+    color: #9BC427;
+}
 
 
 
