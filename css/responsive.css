@@ -1219,10 +1219,26 @@
         background-color: #fff;
     }
 
-    .header.whiteheader, .header.fixed {
+    .header.whiteheader,
+    .header.fixed {
         background: #181818;
         border: none;
     }
+
+    .header__phonebox a {
+        color: #181818;
+    }
+
+    .mobilemenu__header .header__phonebox {
+        position: absolute;
+        background: #fff;
+        right: 15px;
+        top: 65px;
+    }
+
+
+
+
 
 }
 
@@ -2403,7 +2419,7 @@
         -ms-transform: translateY(-50%);
         -o-transform: translateY(-50%);
         margin-right: -20px;
-}
+    }
 
     .descrrow p {
         padding: 6px 11px;
@@ -2433,7 +2449,7 @@
     }
 
     .secretsect.price .row.secretsect__descr {
-        height: 185px;
+        height: 175px;
     }
 
     .secretsect.price .row.secretsect__descr.showcont {
@@ -2648,7 +2664,9 @@
         font-size: 14px;
     }
 
-
+    .secretsect.price .row.secretsect__descr {
+        height: 177px;
+    }
 
 
 
