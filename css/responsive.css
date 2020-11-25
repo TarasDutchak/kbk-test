@@ -100,11 +100,26 @@
         font-size: 18px;
     }
 
+    .projects__filter .tanspar-btn span {
+        padding: 22px 18px;
+    }
 
+    .projects__filter .tanspar-btn span {
+        font-size: 18px;
+        letter-spacing: 0.10em;
+    }
 
+    .prform .inpwrap {
+        width: 100%;
+    }
 
+    .prform {
+        padding: 78px 65px 20px 65px;
+    }
 
-
+    .interesting-prbox {
+        height: 400px;
+    }
 
 }
 
@@ -774,6 +789,119 @@
         padding-top: 180px;
     }
 
+    .projects-section .project-name p {
+        font-size: 18px;
+    }
+
+    .projects__filter .tanspar-btn span {
+        padding: 15px 15px;
+    }
+
+    .projects__filter .tanspar-btn span {
+        font-size: 16px;
+        letter-spacing: 0.05em;
+    }
+
+    .projects-section .project-name {
+        min-height: 65px;
+        padding: 5px 10px 5px 30px;
+        display: flex;
+        align-items: center;
+        max-width: 400px;
+    }
+
+    .breadcrumbs ul li a,
+    .breadcrumbs ul li {
+        font-size: 18px;
+    }
+
+    .breadcrumbs {
+        margin-bottom: 40px;
+    }
+
+    .prmainpic-wrap {
+        height: 450px;
+    }
+
+    .prmaininf-wrap {
+        height: 450px;
+    }
+
+    .prmaininf-wrap .title {
+        font-size: 28px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .prmaininf-wrap .square span {
+        font-size: 18px;
+    }
+
+    .prmaininf-wrap .square {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .prmaininf-wrap .subtitle {
+        font-size: 18px;
+    }
+
+    .prmaininf-wrap ul li {
+        font-size: 18px;
+    }
+
+    .prmaininf-wrap ul li span {
+        font-size: 26px;
+    }
+
+    .prbottinfo__picwrap {
+        height: 200px;
+    }
+
+    .prform .title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .prform {
+        padding: 40px 65px 20px 65px;
+        height: 430px;
+    }
+
+    .prform input {
+        height: 48px;
+    }
+
+    .prform .tanspar-btn {
+        margin-top: 21px;
+    }
+
+    .interesting-pr .title {
+        font-size: 28px;
+    }
+
+    .interesting-pr {
+        padding: 75px 0;
+    }
+
+    .interesting-prbox {
+        height: 300px;
+    }
+
+    .interesting-prbox .intprname {
+        min-height: 65px;
+        padding-left: 30px;
+    }
+
+    .interesting-prbox .intprname p {
+        font-size: 18px;
+    }
+
+    .interesting-pr .title {
+        margin-bottom: 50px;
+    }
+
+
 }
 
 @media(max-width:1300.8px) {
@@ -975,6 +1103,66 @@
     }
 
     .descrrow p {
+        font-size: 16px;
+    }
+
+    .prfilt-wrapbtn {
+        margin-bottom: 20px;
+        width: 45%;
+    }
+
+    .projects__filter .tanspar-btn span,
+    button.tanspar-btn {
+        width: 100%;
+    }
+
+    .prmaininf-wrap {
+        padding: 45px 30px 20px 30px;
+    }
+
+    .prmaininf-wrap .title {
+        font-size: 24px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .prmaininf-wrap ul li {
+        margin-bottom: 10px;
+    }
+
+    .prform {
+        padding: 40px 35px 20px 35px;
+    }
+
+    .prform .tanspar-btn span {
+        padding: 15px 35px;
+    }
+
+    .prform .title {
+        margin-bottom: 40px;
+    }
+
+    .prform .title:after {
+        max-width: 50%;
+        bottom: -15px;
+    }
+
+    .interesting-prbox {
+        height: 275px;
+    }
+
+    .interesting-prbox .picbox {
+        overflow: hidden;
+        width: calc(100% - 16px);
+        height: calc(100% - 20px);
+    }
+
+    .interesting-prbox .intprname {
+        min-height: 50px;
+        padding-left: 20px;
+    }
+
+    .interesting-prbox .intprname p {
         font-size: 16px;
     }
 
@@ -1319,9 +1507,17 @@
         display: none;
     }
 
+    .projects__filter {
+        margin-bottom: 40px;
+    }
 
+    .projects-section .project-name p {
+        font-size: 16px;
+    }
 
-
+    .projects-section .project-name {
+        min-height: 50px;
+    }
 
 }
 
@@ -1546,6 +1742,41 @@
         margin-bottom: 60px;
     }
 
+    .projects-section .project-name {
+        max-width: 300px;
+        padding: 5px 10px 5px 15px;
+    }
+
+    .prmainpic-wrap {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .breadcrumbs {
+        margin-bottom: 25px;
+    }
+
+    .prmaininf-wrap {
+        height: auto;
+    }
+
+    .prbottinfo__left {
+        margin-bottom: 50px;
+    }
+
+    .prtopinfo {
+        margin-bottom: 40px;
+    }
+
+    .prform .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .interesting-prbox {
+        height: 250px;
+    }
+
 }
 
 
@@ -1643,6 +1874,24 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+
+    .prfilt-wrapbtn {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .projects-section .project-name {
+        max-width: 450px;
+    }
+
+    .interesting-prbox {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+
+
+
 }
 
 @media(max-width:575.8px) {
@@ -2681,12 +2930,175 @@
         margin-bottom: 40px;
     }
 
-    .pagination-sect ul li a, .pagination-sect ul li span {
+    .pagination-sect ul li a,
+    .pagination-sect ul li span {
         font-size: 13px;
         width: 45px;
         height: 45px;
     }
 
+    .projects__filter .tanspar-btn span {
+        padding: 21px 20px;
+        line-height: 19px;
+        letter-spacing: 0.14em;
+    }
+
+    .prfilt-wrapbtn {
+        margin-bottom: 42px;
+    }
+
+    .projects-section .keyhouse__box-pic {
+        width: 100%;
+    }
+
+    .projects-section .project-name {
+        max-width: 74%;
+        min-height: 68px;
+    }
+
+    .breadcrumbs {
+        margin-bottom: 30px;
+        margin-top: 65px;
+    }
+
+    .breadcrumbs ul li a,
+    .breadcrumbs ul li {
+        font-size: 13px;
+    }
+
+    .prmainpic-wrap {
+        margin-bottom: 30px;
+    }
+
+    .prmaininf-wrap .title {
+        font-size: 20px;
+        line-height: 160%;
+        padding-bottom: 20px;
+        margin-bottom: 21px;
+    }
+
+    .prmaininf-wrap {
+        padding: 17px 27px;
+    }
+
+    .prmaininf-wrap .square span {
+        font-size: 16px;
+    }
+
+    .prmaininf-wrap .square {
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+    .prmaininf-wrap .subtitle {
+        font-size: 16px;
+        line-height: 150%;
+        margin-bottom: 13px;
+    }
+
+    .prmaininf-wrap ul li {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .prmaininf-wrap ul li span {
+        font-size: 24px;
+    }
+
+    .prbottinfo .prbottinfo__left .row {
+        margin-left: -7px;
+        margin-right: -7px;
+    }
+
+    .prbottinfo .prbottinfo__left .row .col-6 {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .prbottinfo__picwrap {
+        height: 119px;
+    }
+
+    .prbottinfo__picwrap a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .prbottinfo__picwrap img {
+        max-width: initial;
+        max-height: 100%;
+    }
+
+    .prtopinfo {
+        margin-bottom: 20px;
+    }
+
+    .prbottinfo__left {
+        margin-bottom: 35px;
+    }
+
+    .prform {
+        height: auto;
+        padding: 40px 15px 51px 15px;
+        width: calc(100% + 30px);
+        margin-left: -15px;
+    }
+
+    .prform .title {
+        font-size: 20px;
+        line-height: 160%;
+    }
+
+    .prform .title {
+        margin-bottom: 60px;
+    }
+
+    .prform .title:after {
+        bottom: -23px;
+    }
+
+    .prform input {
+        height: 62px;
+        margin-bottom: 40px;
+    }
+
+    .prform .tanspar-btn {
+        margin-top: 31px;
+    }
+
+    .advplus.pr .advplus-bottsect {
+        margin-top: 0;
+    }
+
+    .interesting-pr {
+        padding: 20px 0 40px 0;
+    }
+
+    .interesting-pr .title {
+        font-size: 20px;
+        line-height: 160%;
+        text-align: right;
+    }
+
+    .interesting-prbox .picbox {
+        overflow: hidden;
+        width: calc(100% - 30px);
+        height: calc(100% - 34px);
+    }
+    .interesting-prbox {
+        height: 311px;
+        margin-bottom: 40px;
+    }
+    .interesting-prbox .intprname {
+        min-height: 68px;
+    }
+
+    .interesting-pr .col-md-4:last-child .interesting-prbox {
+        margin-bottom: 0;
+    }
 
 
 }
@@ -2829,6 +3241,22 @@
 
     .news__block .descrbox {
         padding: 15px 40px 15px 15px;
+    }
+
+    .projects__filter .tanspar-btn span {
+        padding: 20px 15px;
+        letter-spacing: 0.05em;
+        font-size: 15px;
+    }
+
+    .interesting-prbox .picbox {
+        overflow: hidden;
+        width: calc(100% - 16px);
+        height: calc(100% - 17px);
+    }
+
+    .interesting-prbox {
+        height: 280px;
     }
 
 }
