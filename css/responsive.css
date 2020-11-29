@@ -989,7 +989,8 @@
         height: 62px;
     }
 
-    .socialbox .ic img {
+    .socialbox .ic img,
+    .socialbox .ic svg {
         max-height: 26px;
     }
 
