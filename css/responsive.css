@@ -998,11 +998,69 @@
         margin-bottom: 75px;
     }
 
+    .turnkeyprice {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
 
+    .turnkeypics__picbox {
+        height: 150px;
+    }
 
+    .project-section.turnkeysect {
+        padding-bottom: 45px;
+    }
 
+    .turnkeytabs {
+        padding: 75px 0;
+    }
 
+    .turnkeytabs h1 {
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
 
+    .turnkeytabs__header-tab>img {
+        max-width: 50%;
+        max-height: 110px;
+    }
+
+    .turnkeytabs__header-tab .textblock .title,
+    .turnkeytabs__header-tab .textblock .price {
+        font-size: 20px;
+    }
+
+    .turnkeytabs__header-tab .textblock {
+        padding: 30px 40px;
+    }
+
+    .turnkeytabs__header-tab {
+        padding-top: 80px;
+    }
+
+    .turnkeytabs__infobox-title p {
+        font-size: 18px;
+    }
+
+    .turnkeytabs__infobox {
+        padding: 20px 60px 20px 30px;
+    }
+
+    .turnkeytabs__infobox-title img {
+        right: 30px;
+    }
+
+    .turnkeytabs__infobox-descr ul li {
+        font-size: 16px;
+    }
+
+    .advplus-bottsect {
+        margin-top: 50px;
+    }
+
+    .secretsect.turnkeytextbox.pb70 {
+        padding-bottom: 30px;
+    }
 
 }
 
@@ -1073,6 +1131,8 @@
     .postsection2 .tanspar-btn.greenbtn {
         margin-top: 30px;
     }
+
+
 
 
 
@@ -1305,6 +1365,10 @@
     .postsection__picleft,
     .postsection__picleft .postpics-section__box {
         height: 100%;
+    }
+
+    .turnkeypics__picbox {
+        height: 120px;
     }
 }
 
@@ -1641,6 +1705,7 @@
         min-height: 50px;
     }
 
+
 }
 
 @media(max-width:991.8px) {
@@ -1907,6 +1972,59 @@
         line-height: 24px;
     }
 
+    .turnkeypics__picbox {
+        height: 200px;
+    }
+
+    .phonemore.keyshowpic {
+        display: block;
+    }
+
+    .phonemore.keyshowpic .less {
+        display: none;
+    }
+
+    .phonemore.keyshowpic span {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 19px;
+        font-family: 'Rubik', sans-serif;
+        letter-spacing: 0.14em;
+        color: #9BC427;
+    }
+
+    .turnkeypics .col-lg-3:nth-last-child(-n+4) {
+        display: none;
+    }
+
+    .phonemore.keyshowpic span.less img {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+
+    .turnkeytabs__header-tab .textblock .title,
+    .turnkeytabs__header-tab .textblock .price {
+        font-size: 18px;
+    }
+
+    .turnkeytabs__header-tab .textblock {
+        padding: 20px 20px;
+    }
+
+    .turnkeytabs__header-tab .textblock .title {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .turnkeytabs__header-tab {
+        padding-top: 55px;
+    }
+
+
+
 
 
 }
@@ -2034,6 +2152,23 @@
         margin-top: 20px;
     }
 
+    .turnkeytabs__header .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .turnkeytabs__header .row .col-lg-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .turnkeytabs__header-tab>img {
+        display: none;
+    }
+
+    .turnkeytabs__header-tab .textblock .title span {
+        display: none;
+    }
 }
 
 @media(max-width:575.8px) {
@@ -3301,7 +3436,7 @@
     .postsection2 .col-12.ftext {
         margin-top: 20px;
     }
-    
+
     .postsection__textright p,
     .ftext p {
         font-size: 13px;
@@ -3310,6 +3445,7 @@
     .postsection2 .tanspar-btn.greenbtn span {
         width: 250px;
     }
+
     .postsection2 {
         padding-bottom: 51px;
     }
@@ -3356,6 +3492,133 @@
 
     .socialbox>div {
         height: 68px;
+    }
+
+    .prmaininf-wrap.turnkey {
+        padding: 17px 27px 17px 27px;
+    }
+
+    .turnkeyprice {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .turnkeypics__picbox {
+        height: 119px;
+    }
+
+    .turnkeypics__picbox {
+        height: auto;
+    }
+
+    .project-section.turnkeysect {
+        padding-bottom: 40px;
+    }
+
+    .turnkeytabs {
+        padding: 20px 0 51px 0;
+    }
+
+    .turnkeytabs h1 {
+        font-size: 20px;
+        line-height: 160%;
+        text-align: right;
+        letter-spacing: 0.01em;
+        margin-bottom: 40px;
+    }
+
+    .turnkeytabs__header-tab {
+        padding-top: 0;
+    }
+
+    .turnkeytabs__header-tab .textblock {
+        padding: 16px 11px;
+    }
+
+    .turnkeytabs__header-tab .textblock .title {
+        font-size: 16px;
+    }
+
+    .turnkeytabs__header-tab .textblock .title:after {
+        width: 70px;
+    }
+
+    .turnkeytabs__header-tab .textblock .price {
+        font-size: 13px;
+        line-height: 130%;
+    }
+
+    .turnkeytabs__infobox-title p {
+        font-size: 14px;
+    }
+
+    .turnkeytabs__infobox {
+        padding: 11px 35px 11px 7px;
+    }
+
+    .turnkeytabs__infobox-title img {
+        width: 21px;
+        right: 9px;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        top: 12px;
+    }
+
+    .turnkeytabs__infobox-descr ul li {
+        font-size: 13px;
+        padding-left: 12px;
+    }
+
+    .turnkeytabs__infobox-descr ul li:before {
+        width: 5px;
+        height: 5px;
+        top: 8px;
+    }
+
+    .turnkeytabs__infobox-descr {
+        display: none;
+    }
+
+    .turnkeytabs__header,
+    .turnkeytabs__infobox {
+        margin-bottom: 1px;
+    }
+
+    .turnkeytabs__infobox-title p img {
+        display: inline-block;
+        position: relative;
+        top: initial;
+        transform: none;
+        right: initial;
+        margin-left: 8px;
+        margin-top: -4px;
+        width: 24px;
+    }
+
+    .turnkeytabs__infobox-title p img.rot {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        opacity: .6;
+    }
+
+    .turnkeytabs__infobox {
+        border-right: none;
+    }
+
+    .turnkeytabs .tanspar-btn span {
+        padding: 22px 12px;
+        letter-spacing: 0.1em;
+    }
+
+    .phonemore.keyshowpic span {
+        font-size: 16px;
     }
 
 }
@@ -3519,4 +3782,12 @@
     .socialbox .ic p {
         letter-spacing: 0.07em;
     }
+
+    .turnkeytabs__header-tab .textblock .title {
+        font-size: 13px;
+    }
+
+
+
+
 }

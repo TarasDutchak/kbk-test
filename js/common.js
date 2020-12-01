@@ -322,7 +322,38 @@ $('.mobilemenu__header .phonebtn').click(function(){
   $(this).next('.mobilemenu__header .header__phonebox ').toggle();
 });
 
+// TABS
+$('.turnkeytabs__header-tab').click(function(){
+  $('.turnkeytabs__header-tab').removeClass('active');
+  $(this).addClass('active');
+
+  if($('.tabbtn1').hasClass('active')) {
+    $('.tab1').show();
+    $('.tab2, .tab3').hide();
+  } else if ($('.tabbtn2').hasClass('active')) {
+    $('.tab2').show();
+    $('.tab1, .tab3').hide();
+  } else if ($('.tabbtn3').hasClass('active')) {
+    $('.tab3').show();
+    $('.tab2, .tab1').hide();
+  }
+
+});
+
+// more pic
+$('.phonemore.keyshowpic .more').click(function(){
+  $('.turnkeypics .col-lg-3:nth-last-child(-n+4)').show();
+});
+$('.phonemore.keyshowpic .less').click(function(){
+  $('.turnkeypics .col-lg-3:nth-last-child(-n+4)').hide();
+});
 
 
+if($(window).width() < 576) {
+  $('.turnkeytabs__infobox-title').click(function(){
+    $(this).next('.turnkeytabs__infobox-descr').slideToggle();
+    $(this).find('p img').toggleClass('rot');
+  });
+}
 
 });
