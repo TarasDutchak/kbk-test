@@ -2025,7 +2025,7 @@ footer {
 }
 
 .footer__list li {
-    margin-bottom: 49px;
+    margin-bottom: 15px;
 }
 
 .footer__list li:last-child {
@@ -2413,7 +2413,9 @@ header.header {
     padding-top: 240px;
 }
 
-.header.whiteheader,
+.header.whiteheader {
+    background: transparent;
+}
 .header.fixed {
     background: #fff;
 }
@@ -3770,6 +3772,58 @@ button.tanspar-btn {
 .turnkeytabs__infobox-title p img {
     display: none;
 }
+
+.general-fsect.thankspage h1 span:after{
+    display: none;
+}
+
+.general-fsect.thankspage h1 {
+    position: relative;
+}
+
+.general-fsect.thankspage h1:after {
+    content: '';
+    height: 1px;
+    background-color: #969C9F;
+    width: 216px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    bottom: -20px;
+}
+
+.general-fsect.thankspage {
+    padding-bottom: 113px;
+    background: #F3F3F3;
+}
+
+.posibnyk {
+    background-color: #fff;
+    padding: 36px 0 0 0;
+}
+
+.posibnyk__decr .title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    color: #181818;
+}
+
+.posibnyk__decr .title span {
+    color: #969C9F;
+}
+
+
+
+
+
+
+
+
+
 
 
 
