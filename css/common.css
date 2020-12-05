@@ -2416,6 +2416,7 @@ header.header {
 .header.whiteheader {
     background: transparent;
 }
+
 .header.fixed {
     background: #fff;
 }
@@ -3668,6 +3669,7 @@ button.tanspar-btn {
     margin-bottom: 3px;
     position: relative;
 }
+
 .turnkeytabs__infobox.err {
     border-right: 3px solid #A94343;
 }
@@ -3735,6 +3737,7 @@ button.tanspar-btn {
 .turnkeytabs__body .tab3 {
     display: none;
 }
+
 .turnkeytabs__header-tab .textblock,
 .turnkeytabs__header-tab .textblock .title {
     transition: .3s;
@@ -3743,6 +3746,7 @@ button.tanspar-btn {
     -ms-transition: .3s;
     -o-transition: .3s;
 }
+
 .turnkeytabs__header-tab.active .textblock,
 .turnkeytabs__header-tab:hover .textblock {
     background: #36363A;
@@ -3761,7 +3765,7 @@ button.tanspar-btn {
     padding-top: 0;
 }
 
-.secretsect.turnkeytextbox .secretsect__descr p  {
+.secretsect.turnkeytextbox .secretsect__descr p {
     margin-bottom: 20px;
 }
 
@@ -3773,7 +3777,7 @@ button.tanspar-btn {
     display: none;
 }
 
-.general-fsect.thankspage h1 span:after{
+.general-fsect.thankspage h1 span:after {
     display: none;
 }
 
@@ -3810,23 +3814,125 @@ button.tanspar-btn {
     line-height: 170%;
     letter-spacing: 0.01em;
     color: #181818;
+    margin-bottom: 36px;
 }
 
 .posibnyk__decr .title span {
     color: #969C9F;
 }
 
+.posibnyk__decr ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-bottom: 39px;
+}
 
+.posibnyk__decr ul li {
+    font-size: 20px;
+    line-height: 170%;
+    color: #181818;
+    margin-bottom: 15px;
+    padding-left: 24px;
+    position: relative;
+}
 
+.posibnyk__decr ul li:after {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    background-color: #9BC427;
+    left: 0;
+    top: 14px;
+}
 
+.posibnyk .col-xl-4 {
+    display: flex;
+    align-items: center;
+}
 
+.posibnyk__pic {
+    text-align: right;
+}
 
+.videothx {
+    padding-top: 137px;
+    text-align: center;
+    position: relative;
+}
 
+.videothx:after {
+    content: '';
+    display: block;
+    background: #F3F3F3;
+    height: 513px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
+.videothx .rew__bigslide {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
 
+.thxseotext {
+    padding: 142px 0 89px 0;
+}
 
+.thxseotext h1 {
+    margin-bottom: 136px;
+}
 
+.thxseotext__descr p {
+    font-size: 20px;
+    line-height: 170%;
+    color: #181818;
+    padding: 0 30px;
+    margin-bottom: 25px;
+}
 
+.thxseotext__descr p.act {
+    padding: 30px;
+    border: 1px solid #9BC427;
+    margin-bottom: 80px;
+}
+
+.thxseotext__descr p span {
+    letter-spacing: 0.14em;
+    color: #9BC427;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.thxseotext__pic {
+    text-align: center;
+}
+
+.thxseotext__pic > img {
+    margin-bottom: 101px;
+}
+
+.thxseotext__pic .tanspar-btn span {
+    padding: 22px 30px;
+}
+
+.posibnyk__pic img,
+.thxseotext__pic > img {
+    max-width: 100%;
+}
+.posibnyk__decr {
+    padding-bottom: 10px;
+}
+
+.thxseotext__descr .tanspar-btn.greenbtn,
+.posibnyk__pic.showphone {
+    display: none;
+}
 /* 
 font-family: 'Montserrat', sans-serif;
 font-family: 'Rubik', sans-serif;

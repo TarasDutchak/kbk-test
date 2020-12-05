@@ -1062,6 +1062,52 @@
         padding-bottom: 30px;
     }
 
+    .posibnyk__decr .title {
+        font-size: 18px;
+        line-height: 150%;
+        margin-bottom: 20px;
+    }
+
+    .posibnyk__decr ul li {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .posibnyk__decr ul li:after {
+        top: 6px;
+    }
+
+    .videothx {
+        padding-top: 75px;
+    }
+
+    .thxseotext {
+        padding: 100px 0 75px 0;
+    }
+
+    .thxseotext h1 {
+        margin-bottom: 70px;
+    }
+
+    .thxseotext__descr p {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .thxseotext__descr p.act {
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    .thxseotext__descr p {
+        padding: 0 20px;
+    }
+
+    .thxseotext__pic>img {
+        margin-bottom: 80px;
+    }
+
+
 }
 
 @media(max-width:1300.8px) {
@@ -1132,9 +1178,14 @@
         margin-top: 30px;
     }
 
+    .general-fsect.thankspage {
+        padding-bottom: 50px;
+    }
 
-
-
+    .posibnyk .row .col-md-6:first-child {
+        display: flex;
+        align-items: flex-end;
+    }
 
 }
 
@@ -2023,7 +2074,9 @@
         padding-top: 55px;
     }
 
-
+    .posibnyk__decr {
+        padding-bottom: 30px;
+    }
 
 
 
@@ -2168,6 +2221,47 @@
 
     .turnkeytabs__header-tab .textblock .title span {
         display: none;
+    }
+
+    .posibnyk__pic {
+        margin-bottom: 30px;
+    }
+
+    .thxseotext .row .col-md-6:first-child {
+        order: 2;
+    }
+
+    .thxseotext .row .col-md-6:nth-last-child(2) {
+        order: 1;
+    }
+
+    .thxseotext__descr .tanspar-btn.greenbtn {
+        display: inline-block;
+    }
+
+    .thxseotext__pic .tanspar-btn.greenbtn {
+        display: none;
+    }
+
+    .thxseotext__descr p {
+        padding: 0;
+    }
+
+    .thxseotext__descr p.act {
+        padding: 0;
+        border: none;
+    }
+
+    .thxseotext__pic>img {
+        margin-bottom: 40px;
+    }
+
+    .posibnyk__pic {
+        display: none;
+    }
+
+    .posibnyk__pic.showphone {
+        display: block;
     }
 }
 
@@ -3621,6 +3715,127 @@
         font-size: 16px;
     }
 
+    .general-fsect.thankspage h1 {
+        font-size: 20px;
+        line-height: 160%;
+    }
+
+    .general-fsect.thankspage {
+        padding-top: 108px;
+        padding-bottom: 58px;
+    }
+
+    .general-fsect.thankspage h1:after {
+        width: 157px;
+    }
+
+    .posibnyk {
+        padding: 20px 0 51px 0;
+    }
+
+    .posibnyk__decr .title {
+        font-size: 13px;
+        line-height: 160%;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .posibnyk__pic.showphone {
+        margin-bottom: 19px;
+    }
+
+    .posibnyk__decr ul li {
+        font-size: 13px;
+        line-height: 16px;
+        padding-left: 12px;
+    }
+
+    .posibnyk__decr ul li:after {
+        width: 5px;
+        height: 5px;
+    }
+
+    .posibnyk__decr .tanspar-btn {
+        width: calc(100% - 22px);
+        margin-left: 11px;
+    }
+
+    .posibnyk__decr .tanspar-btn span {
+        width: 100%;
+        max-width: 375px;
+    }
+
+    .posibnyk__decr {
+        padding-bottom: 0;
+    }
+
+    .videothx:after {
+        height: 155px;
+    }
+
+    .videothx {
+        padding-top: 40px;
+    }
+
+    .videothx .rew__bigslide .textsect {
+        display: block;
+    }
+
+    .videothx .rew__bigslide .textsect p span {
+        font-size: 16px;
+    }
+
+    .videothx .rew__bigslide .textsect {
+        padding: 0 15px;
+    }
+
+    .videothx .rew__bigslide .textsect {
+        padding: 20px 15px;
+        height: auto;
+        max-width: 320px;
+    }
+
+    .videothx .rew__bigslide .textsect p span {
+        margin-right: 15px;
+    }
+
+    .videothx .rew__bigslide .textsect p span:after {
+        right: -15px;
+    }
+
+    .videothx .rew__bigslide .textsect p {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .videothx .rew__bigslide .textsect p text {
+        padding-left: 15px;
+        display: inline-block;
+    }
+
+    .thxseotext {
+        padding: 40px 0 51px 0;
+    }
+
+    .thxseotext h1 {
+        text-align: right;
+        font-size: 20px;
+        line-height: 160%;
+        margin-bottom: 40px;
+    }
+    .thxseotext__descr .tanspar-btn.greenbtn {
+        margin-left: 11px;
+    }
+    .videothx .rew__bigslide .textsect p {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
 }
 
 @media(max-width:374.8px) {
@@ -3787,6 +4002,9 @@
         font-size: 13px;
     }
 
+    .videothx .rew__bigslide .textsect {
+        padding: 10px;
+    }
 
 
 
