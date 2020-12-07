@@ -1191,13 +1191,21 @@
         padding-bottom: 70px;
     }
 
+    .videothx:after {
+        height: 70%;
+    }
 
+    .contblock__mail li {
+        background-position: 0 4px;
+    }
 
+    .contblock__tel li {
+        background-position: 0 4px;
+    }
 
-
-
-
-
+    .mapsect {
+        padding: 45px 0 84px 0;
+    }
 
 
 
@@ -4092,6 +4100,14 @@
 
     .contact-bottsect {
         padding-bottom: 40px;
+    }
+
+    .contblock__mail li {
+        background-position: 0 5px;
+    }
+
+    .contblock__tel li {
+        background-position: 0 5px;
     }
 
 }
