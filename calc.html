@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header class="header noshadow">
+        <nav class="header__menu">
+            <ul>
+                <li><a href="#">Будівництво</a></li>
+                <li><a href="#">Проекти</a></li>
+                <li><a href="#">Ціна</a></li>
+                <li><a href="#">Будинки під ключ</a></li>
+                <li><a href="#">Побудовано</a></li>
+                <li class="active"><a href="#">Новини</a></li>
+            </ul>
+        </nav>
+        <div class="header__phonesect">
+            <div class="phonebtn">
+                <img src="img/icons/smartphone.svg" alt="icon">
+                <div class="header__phonebox">
+                    <a href="tel:+380999333623">+38 /099/ 933 36 23</a>
+                    <a href="tel:+380689333623">+38 /068/ 933 36 23</a>
+                </div>
+            </div>
+            <div class="header__phonebox">
+                <a href="tel:+380999333623">+38 /099/ 933 36 23</a>
+                <a href="tel:+380689333623">+38 /068/ 933 36 23</a>
+            </div>
+        </div>
+
+        <div class="adaptive-headsect">
+            <div class="burger">
+                <img src="img/icons/burger-menu.svg" alt="burger menu">
+            </div>
+            <div class="adapt-logo">
+                <a href="#"><img src="img/mobile-logo.svg" alt="logo"></a>
+            </div>
+            <div class="phonebox">
+                <span class="phonebtn">
+                    <img src="img/icons/smartphone-icon.svg" alt="phone">
+                </span>
+                <div class="header__phonebox">
+                    <a href="tel:+380999333623">+38 /099/ 933 36 23</a>
+                    <a href="tel:+380689333623">+38 /068/ 933 36 23</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobilemenu">
+            <div class="mobilemenu-sectwrapp">
+                <div class="scrollsect">
+                    <div class="mobilemenu__header">
+                        <span class="closemenu">
+                            <img src="img/icons/close-menu.svg" alt="close">
+                        </span>
+                        <a href="#" class="logo"><img src="img/logomain.svg" alt="logo"></a>
+                        <div class="phonebox">
+                            <span class="phonebtn">
+                                <img src="img/icons/smartphone-icon.svg" alt="phone">
+                            </span>
+                            <div class="header__phonebox">
+                                <a href="tel:+380999333623">+38 /099/ 933 36 23</a>
+                                <a href="tel:+380689333623">+38 /068/ 933 36 23</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobilemenu__header-body">
+                        <div class="lists-wrapp">
+                            <ul class="mobilemenu__nav">
+                                <li><a href="#">Будівництво</a></li>
+                                <li><a href="#">Проекти</a></li>
+                                <li><a href="#">Ціна</a></li>
+                                <li><a href="#">Будинки під ключ</a></li>
+                                <li><a href="#">Побудовано</a></li>
+                                <li class="active"><a href="#">Новини</a></li>
+                            </ul>
+                            <ul class="mobilemenu__lang">
+                                <li class="active"><a href="#">uk</a></li>
+                                <li><a href="#">ru</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobilemenu__header-footer">
+                        <div class="mobilemenu__soc">
+                            <ul>
+                                <li><a href="#"><img src="img/icons/youtube.svg" alt="youtube"></a></li>
+                                <li><a href="#"><img src="img/icons/fb.svg" alt="facebook"></a></li>
+                                <li><a href="#"><img src="img/icons/instagram.svg" alt="instagram"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <aside class="leftsedebar">
+        <div class="leftsedebar__topsect">
+            <a href="#" class="logo">
+                <img src="img/logomain.svg" alt="logo">
+            </a>
+            <ul class="lang">
+                <li class="active"><a href="#">UK</a></li>
+                <li><a href="#">RU</a></li>
+            </ul>
+
+        </div>
+        <div class="leftsedebar__botsect">
+            <ul>
+                <li>
+                    <a href="#">
+                        <svg width="28" height="19" viewBox="0 0 28 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.866394 4.83777V14.5948C0.866394 16.9392 2.76675 18.8396 5.11114 18.8396H22.8714C25.2158 18.8396 27.1165 16.9392 27.1165 14.5948V4.83777C27.1165 2.49338 25.2158 0.593018 22.8714 0.593018H5.11114C2.76675 0.593018 0.866394 2.49338 0.866394 4.83777ZM10.7865 14.9899V4.44254L18.7829 9.71629L10.7865 14.9899Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.7773 0H3.22266C1.44583 0 0 1.44583 0 3.22266V18.7773C0 20.5542 1.44583 22 3.22266 22H9.71094V14.2227H7.13281V10.3555H9.71094V7.73438C9.71094 5.60188 11.4456 3.86719 13.5781 3.86719H17.4883V7.73438H13.5781V10.3555H17.4883L16.8438 14.2227H13.5781V22H18.7773C20.5542 22 22 20.5542 22 18.7773V3.22266C22 1.44583 20.5542 0 18.7773 0Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.7773 0H3.22266C1.44583 0 0 1.44583 0 3.22266V18.7773C0 20.5542 1.44583 22 3.22266 22H18.7773C20.5542 22 22 20.5542 22 18.7773V3.22266C22 1.44583 20.5542 0 18.7773 0ZM11.043 16.7578C7.84431 16.7578 5.24219 14.1557 5.24219 10.957C5.24219 7.75838 7.84431 5.15625 11.043 5.15625C14.2416 5.15625 16.8438 7.75838 16.8438 10.957C16.8438 14.1557 14.2416 16.7578 11.043 16.7578ZM17.4883 6.44531C16.4221 6.44531 15.5547 5.57788 15.5547 4.51172C15.5547 3.44556 16.4221 2.57812 17.4883 2.57812C18.5544 2.57812 19.4219 3.44556 19.4219 4.51172C19.4219 5.57788 18.5544 6.44531 17.4883 6.44531Z"
+                                fill="white" />
+                            <path
+                                d="M17.4883 3.86719C17.1326 3.86719 16.8438 4.15605 16.8438 4.51172C16.8438 4.86739 17.1326 5.15625 17.4883 5.15625C17.8439 5.15625 18.1328 4.86739 18.1328 4.51172C18.1328 4.15605 17.8439 3.86719 17.4883 3.86719Z"
+                                fill="white" />
+                            <path
+                                d="M11.043 6.44531C8.55548 6.44531 6.53125 8.46954 6.53125 10.957C6.53125 13.4445 8.55548 15.4688 11.043 15.4688C13.5305 15.4688 15.5547 13.4445 15.5547 10.957C15.5547 8.46954 13.5305 6.44531 11.043 6.44531Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <main>
+        <section class="freecalc calcscreen">
+            <div class="container">
+                <h2 class="whiteh2">БЕЗКОШТОВНИЙ <span>КАЛЬКУЛЯТОР ВАРТОСТІ БУДІВНИЦТВА</span></h2>
+                <div class="calcnav">
+                    <div class="calcnav-box">
+                        <div class="calcnav-point active">
+                            <div class="calcnav-pointbox"></div>
+                        </div>
+                        <div class="calcnav-point">
+                            <div class="calcnav-pointbox"></div>
+                        </div>
+                        <div class="calcnav-point">
+                            <div class="calcnav-pointbox"></div>
+                        </div>
+                        <div class="statusline">
+                            <div class="after"></div>
+                            <div class="before"></div>
+                        </div>
+                    </div>
+                    <div class="calcnav-numstep">
+                        <span class="active">01</span>
+                        <span>02</span>
+                        <span>03</span>
+                    </div>
+                </div>
+                <div class="calcform">
+                    <form action="">
+                        <div class="stepcalc step1">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <select name="" id="">
+                                        <option value="0">Призначення будинку</option>
+                                        <option value="1">Призначення 1</option>
+                                        <option value="2">Призначення 2</option>
+                                    </select>
+                                    <select name="" id="">
+                                        <option value="0">Регіон будівництва</option>
+                                        <option value="1">Регіон 1</option>
+                                        <option value="2">Регіон 2</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-5">
+                                    <span class="calcback disabled">Назад</span>
+                                    <a href="#" class="tanspar-btn">
+                                        <span>
+                                            Наступний крок
+                                            <svg width="21" height="16" viewBox="0 0 21 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                                                    fill="#9BC427"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stepcalc step2 hide">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <select name="" id="">
+                                        <option value="0">Площа будинку</option>
+                                        <option value="1">До 60 кв.м</option>
+                                        <option value="2">Від 60 до 120 кв.м</option>
+                                        <option value="3">Більше 120 кв.м</option>
+                                    </select>
+                                    <select name="" id="">
+                                        <option value="0">Кількість мешканців</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-5">
+                                    <span class="calcback">Назад</span>
+                                    <a href="#" class="tanspar-btn">
+                                        <span>
+                                            Наступний крок
+                                            <svg width="21" height="16" viewBox="0 0 21 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                                                    fill="#9BC427"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stepcalc step3 hide">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <input type="text" placeholder="Ваше ім’я" class="calcinp">
+                                    <input type="tel" placeholder="Номер телефону" class="calcinp">
+                                </div>
+                                <div class="col-lg-5">
+                                    <span class="calcback">Назад</span>
+                                    <button type="submit" class="tanspar-btn">
+                                        <span>
+                                            Далі
+                                            <svg width="21" height="16" viewBox="0 0 21 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"
+                                                    fill="#9BC427"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="secretsect ">
+            <div class="container">
+                <p class="htitle">Фото будинків – <span>красива картинка або реальний проект</span></p>
+                <div class="row secretsect__descr">
+                    <div class="col-md-6">
+                        <p class="act">
+                            Практично кожен, хто планує побудувати нерухомість житлового або комерційного призначення,
+                            або ж купити недорого без посередників, починає з фото: картинки візуалізують не оформлені
+                            іще уявлення про майбутню споруду і допомагають скласти приблизний набір бажаних компонентів
+                            мрії.
+                        </p>
+                        <p>
+                            Деякі примудряються купити будинок по фотографії і потім з подивом з’ясовують, що не оцінили
+                            реальні розміри конструкції, зручність планування та практичність експлуатації.
+                            <br> <br>
+                            Фотосесії будинків і котеджів у фахових виданнях та на сайтах дизайнерів часто грішать
+                            перебільшенням і комп’ютерним моделюванням, тому скласти реальну оцінку класному
+                            дизайн-проекту найкраще, спираючись на цілком матеріальні об’єкти.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            На нашому сайті ви зможете не поспішаючи ознайомитися з невідредагованими фотографіями
+                            будинків, цінами та акційними пропозиціями, поспостерігати різні етапи будівництва,
+                            підібрати кілька вподобаних варіантів і потім узгодити деталі замовлення при особистій
+                            зустрічі. Ми обов’язково врахуємо ваші побажання щодо змін стандартного робочого ескізу під
+                            склад вашої сім’ї, інтереси домашніх та можливості бюджету.
+                            <br><br>
+                            Карпати Буд Каркас – фірма з багаторічним досвідом будівництва будинків за каркасною
+                            технологією, ми напрацювали величезну архівну базу готових об’єктів, і серед них не тільки
+                            фотографії заміських будинків, особняків або таунхаусів, а й пам’ять про зведення нами
+                            промислових підприємств, курортних пансіонатів, храмів.
+                        </p>
+                    </div>
+                </div>
+                <div class="text-right phonemore">
+                    <span class="more">
+                        Більше
+                        <img src="img/icons/arrbott.svg" alt="arrow">
+                    </span>
+                    <span class="less">
+                        Менше
+                        <img src="img/icons/arrbott.svg" alt="arrow">
+                    </span>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footwrapper">
+                <div class="footer__list">
+                    <ul>
+                        <li><a href="#">Будівництво</a></li>
+                        <li><a href="#">Преєкти</a></li>
+                        <li><a href="#">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="footer__address">
+                    <p>
+                        <span>04053, м. Київ</span>
+                        <span>вул. Предславинська, 40
+                        </span>
+                        <span>Україна</span>
+                    </p>
+                </div>
+                <div class="footer__contacts">
+                    <a href="tel:+380675545114" class="foot-tel">
+                        <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.2067 0H1.79137C0.986576 0 0.336426 0.652675 0.336426 1.45747V18.5444C0.336426 19.3467 0.986576 20 1.79137 20H10.2067C11.0102 20 11.6629 19.3473 11.6629 18.5444V1.45747C11.6623 0.652675 11.0102 0 10.2067 0ZM10.5716 16.2045H1.42779V2.45858H10.5716V16.2045ZM7.95012 1.47893H4.04859V1.0535H7.95076L7.95012 1.47893ZM9.61968 1.28452C9.61968 1.4903 9.45178 1.65694 9.24664 1.65694C9.04086 1.65694 8.87359 1.48966 8.87359 1.28452C8.87359 1.07938 9.04086 0.912104 9.24664 0.912104C9.45241 0.911472 9.61968 1.07874 9.61968 1.28452ZM7.77528 18.4472H4.22218V17.354H7.77528V18.4472Z"
+                                fill="#9BC427" />
+                        </svg>
+                        +38 /067/ 554 51 14
+                    </a>
+                    <a href="mailto:kharkiv.karkas.ua@gmail.com" class="foot-email">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.2422 2.38281H1.75782C1.48723 2.38281 1.23391 2.44934 1.00473 2.55898L9.96094 11.5152L11.9683 9.58602C11.9683 9.58602 11.9685 9.58582 11.9685 9.58574C11.9686 9.58566 11.9687 9.58559 11.9687 9.58559L18.9955 2.55914C18.7663 2.44941 18.5129 2.38281 18.2422 2.38281Z"
+                                fill="#969C9F" />
+                            <path
+                                d="M19.824 3.3877L13.2114 9.99996L19.8238 16.6123C19.9335 16.3832 20 16.1298 20 15.8593V4.14051C20 3.87008 19.9336 3.6168 19.824 3.3877Z"
+                                fill="#969C9F" />
+                            <path
+                                d="M0.176172 3.3877C0.0665234 3.61687 0 3.8702 0 4.14078V15.8595C0 16.13 0.0664453 16.3833 0.176016 16.6124L6.78863 10.0002L0.176172 3.3877Z"
+                                fill="#969C9F" />
+                            <path
+                                d="M12.3829 10.8287L10.3752 12.7581C10.2608 12.8726 10.1109 12.9298 9.96098 12.9298C9.8111 12.9298 9.66113 12.8726 9.54672 12.7581L7.61719 10.8286L1.00446 17.4409C1.23367 17.5506 1.48715 17.6172 1.75781 17.6172H18.2422C18.5128 17.6172 18.7661 17.5507 18.9953 17.4411L12.3829 10.8287Z"
+                                fill="#969C9F" />
+                        </svg>
+                        kharkiv.karkas.ua@gmail.com
+                    </a>
+                </div>
+                <div class="phonefooter-social">
+                    <ul>
+                        <li><a href="#" target="_blank"><img src="img/icons/fb-green.svg" alt="facebook"></a></li>
+                        <li><a href="#" target="_blank"><img src="img/icons/instagram-green.svg" alt="instagram"></a>
+                        </li>
+                        <li><a href="#" target="_blank"><img src="img/icons/youtube-green.svg" alt="youtube"></a></li>
+                    </ul>
+                </div>
+                <div class="footer__terms">
+                    <a href="#" class="flogo">
+                        <img src="img/logofoot1.svg" alt="logo">
+                    </a>
+                    <a href="#" class="termslink">Політика конфіденційності</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__botttext">
+            <div class="container">
+                <p>© 2020 КБК Харків</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

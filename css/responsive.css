@@ -1107,6 +1107,100 @@
         margin-bottom: 80px;
     }
 
+    .calcform .tanspar-btn span {
+        width: 292px;
+    }
+
+    .calcscreen.freecalc h2.whiteh2 {
+        margin-bottom: 100px;
+    }
+
+    .contact-topsect .contactus .title,
+    .contact-topsect .ourcontacts .title {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .contact-topsect .contactus .subtitle {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .contact-topsect .contactus form input {
+        padding-left: 15px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        height: 50px;
+    }
+
+    .contact-topsect .contactus form input::placeholder,
+    .contact-topsect .contactus form textarea::placeholder {
+        font-size: 16px;
+    }
+
+    .contact-topsect .contactus form textarea {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .mapwrapper .titlem {
+        font-size: 16px;
+    }
+
+    .mapwrapper .descr {
+        font-size: 16px;
+    }
+
+    .mapsect:after {
+        left: 70px;
+        height: 540px;
+    }
+
+    .maptext {
+        margin-left: 100px;
+        padding-top: 10px;
+    }
+
+    .contact-topsect {
+        padding-bottom: 120px;
+    }
+
+    .contact-bottsect .title {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .contact-bottsect .title:after {
+        bottom: -15px;
+    }
+
+    .contblock__title {
+        font-size: 18px;
+    }
+
+    .contblock {
+        padding: 40px 70px;
+        max-width: 700px;
+    }
+
+    .contblock__info ul li a {
+        font-size: 16px;
+    }
+
+    .contact-bottsect {
+        padding-bottom: 70px;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -1185,6 +1279,10 @@
     .posibnyk .row .col-md-6:first-child {
         display: flex;
         align-items: flex-end;
+    }
+
+    .calcform .tanspar-btn span {
+        width: 272px;
     }
 
 }
@@ -1420,6 +1518,18 @@
 
     .turnkeypics__picbox {
         height: 120px;
+    }
+
+    .calcform .tanspar-btn span {
+        width: 210px;
+    }
+
+    .calcform button.tanspar-btn {
+        width: auto;
+    }
+
+    .contact-topsect .contactus form .tanspar-btn span {
+        padding: 22px 83px;
     }
 }
 
@@ -1756,6 +1866,15 @@
         min-height: 50px;
     }
 
+    .calcscreen.freecalc h2.whiteh2 {
+        margin-bottom: 100px;
+    }
+
+    .freecalc.calcscreen {
+        padding: 155px 0 100px 0;
+        min-height: initial;
+    }
+
 
 }
 
@@ -2078,10 +2197,11 @@
         padding-bottom: 30px;
     }
 
-
+    .contact-topsect .contactus {
+        margin-bottom: 50px;
+    }
 
 }
-
 
 @media(max-width:767.8px) {
     .calcnav .calcnav-point {
@@ -2263,6 +2383,23 @@
     .posibnyk__pic.showphone {
         display: block;
     }
+
+    .contblock {
+        display: block;
+    }
+
+    .contblock__info {
+        max-width: 100%;
+    }
+
+    .contblock__title {
+        margin-bottom: 20px;
+    }
+
+    .contblock__info ul.contblock__tel {
+        margin-bottom: 30px;
+    }
+
 }
 
 @media(max-width:575.8px) {
@@ -3823,18 +3960,139 @@
         line-height: 160%;
         margin-bottom: 40px;
     }
+
     .thxseotext__descr .tanspar-btn.greenbtn {
         margin-left: 11px;
     }
+
     .videothx .rew__bigslide .textsect p {
         font-size: 16px;
     }
 
+    .freecalc.calcscreen {
+        padding: 90px 0 51px 0;
+    }
 
+    .calcform .tanspar-btn span {
+        width: 230px;
+    }
 
+    .calcscreen.freecalc h2.whiteh2 {
+        margin-bottom: 60px;
+    }
 
+    .contact-topsect .contactus .title,
+    .contact-topsect .ourcontacts .title {
+        font-size: 20px;
+        line-height: 160%;
+        text-align: right;
+    }
 
+    .contact-topsect .contactus .title:after,
+    .contact-topsect .ourcontacts .title:after {
+        left: initial;
+        width: 91px;
+    }
 
+    .contact-topsect .contactus .subtitle {
+        text-align: right;
+        font-size: 13px;
+        line-height: 160%;
+        margin-bottom: 20px;
+    }
+
+    .contact-topsect .contactus form input {
+        height: 62px;
+    }
+
+    .contact-topsect .contactus form textarea {
+        height: 124px;
+        margin-bottom: 31px;
+    }
+
+    .contact-topsect .contactus form .tanspar-btn span {
+        width: 100%;
+    }
+
+    .mapsect {
+        padding: 40px 0 100px 0;
+    }
+
+    .mapsect:after {
+        left: 25px;
+        height: 100%;
+    }
+
+    .maptext {
+        margin-left: 50px;
+    }
+
+    .mapwrapper .titlem {
+        font-size: 13px;
+        line-height: 160%;
+    }
+
+    .mapwrapper .descr {
+        font-size: 13px;
+        padding-left: 20px;
+        background-size: 11px;
+        background-position: 0 4px;
+    }
+
+    .mapwrapper {
+        margin-left: -15px;
+    }
+
+    #map {
+        width: calc(100% - 25px);
+    }
+
+    .contact-topsect {
+        padding-bottom: 40px;
+    }
+
+    .contact-bottsect .title {
+        font-size: 20px;
+        line-height: 160%;
+        text-align: right;
+        margin-bottom: 50px;
+    }
+
+    .contact-bottsect .title:after {
+        left: initial;
+        width: 91px;
+    }
+
+    .contblock {
+        padding: 0;
+        border: none;
+    }
+
+    .contblock__title {
+        font-size: 13px;
+        margin-bottom: 19px;
+    }
+
+    .contblock__info ul li a {
+        font-size: 13px;
+    }
+
+    .contblock__info ul.contblock__tel {
+        margin-bottom: 40px;
+    }
+
+    .contblock__tel li,
+    .contblock__mail li {
+        background-size: 16px;
+    }
+
+    .contblock__info ul li {
+        padding-left: 20px;
+    }
+
+    .contact-bottsect {
+        padding-bottom: 40px;
+    }
 
 }
 
@@ -4005,7 +4263,9 @@
     .videothx .rew__bigslide .textsect {
         padding: 10px;
     }
-
+    .contact-topsect .contactus form .tanspar-btn span {
+        padding: 22px 60px;
+    }
 
 
 }
