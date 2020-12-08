@@ -4219,6 +4219,13 @@ header.noshadow {
     overflow: hidden;
 }
 
+.posibnyk__decr .tanspar-btn.greenbtn span {
+    padding: 22px 27px;
+}
+
+.general-fsect.privacy h1 {
+    margin-bottom: 40px;
+}
 
 
 /* 

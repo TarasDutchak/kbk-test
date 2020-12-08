@@ -1206,7 +1206,9 @@
     .mapsect {
         padding: 45px 0 84px 0;
     }
-
+    .posibnyk__decr .tanspar-btn.greenbtn span {
+        padding: 22px 15px;
+    }
 
 
 
@@ -4110,9 +4112,18 @@
         background-position: 0 5px;
     }
 
+    .posibnyk__decr .tanspar-btn.greenbtn span {
+        padding: 22px 5px;
+        letter-spacing: 0.1em;
+    }
+
 }
 
 @media(max-width:374.8px) {
+    .general-fsect.privacy h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
     .calcform .calcback {
         text-align: center;
     }
