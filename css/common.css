@@ -4227,6 +4227,81 @@ header.noshadow {
     margin-bottom: 40px;
 }
 
+/* update */
+@-moz-document url-prefix()
+{
+    h1 span,
+    h2.whiteh2 span,
+    .htitle span,
+    .whiteh3 span,
+    .newssect h1 span,
+    .newssect h1 span,
+    .interesting-pr .title span,
+    .contact-topsect .contactus .title span,
+    .contact-topsect .ourcontacts .title span,
+    .contact-bottsect .title span { display: inline-block; }
+}
+
+.error-sect {
+    height: 100vh;
+    padding-top: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorblock {
+    width: 100%;
+    max-width: 1057px;
+    border: 1px solid #9BC427;
+    padding: 51px 100px 69px 100px;
+    text-align: center;
+}
+
+.errorblock .title {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 160%;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #181818;
+    position: relative;
+    margin-bottom: 54px;
+}
+
+.errorblock .title:after {
+    content: '';
+    display: inline-block;
+    width: 151px;
+    height: 1px;
+    background-color: #969C9F;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.errorblock .descr {
+    max-width: 686px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 170%;
+    color: #181818;
+    margin-bottom: 55px;
+}
+
+.errorblock .tanspar-btn span {
+    padding: 22px 90px;
+}
+
+
+
+
+
+
+
 
 /* 
 font-family: 'Montserrat', sans-serif;

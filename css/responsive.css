@@ -1210,6 +1210,24 @@
         padding: 22px 15px;
     }
 
+    .errorblock .title {
+        font-size: 28px;
+        margin-bottom: 45px;
+    }
+
+    .errorblock .descr {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+
+    .errorblock {
+        max-width: 800px;
+        padding: 45px 75px 50px 75px;
+    }
+
+    .errorblock .tanspar-btn span {
+        padding: 22px 75px;
+    }
 
 
 }
@@ -1885,6 +1903,20 @@
         min-height: initial;
     }
 
+    .error-sect {
+        height: initial;
+        padding: 150px 0 100px;
+        min-height: calc(100vh - 400px);
+    }
+
+    .errorblock {
+        max-width: 80%;
+    }
+
+    .errorblock .title {
+        font-size: 24px;
+    }
+
 
 }
 
@@ -2409,6 +2441,12 @@
     .contblock__info ul.contblock__tel {
         margin-bottom: 30px;
     }
+
+    .errorblock {
+        max-width: 90%;
+        padding: 25px 25px 30px 25px;
+    }
+
 
 }
 
@@ -4117,6 +4155,24 @@
         letter-spacing: 0.1em;
     }
 
+    .error-sect {
+        min-height: calc(100vh - 595px);
+    }
+
+    .errorblock {
+        padding: 35px 25px 40px 25px;
+    }
+    .errorblock .title {
+        font-size: 20px;
+    }
+    .errorblock .tanspar-btn span {
+        padding: 22px 70px;
+    }
+
+    .errorblock .descr {
+        font-size: 14px;
+    }
+
 }
 
 @media(max-width:374.8px) {
@@ -4294,5 +4350,8 @@
         padding: 22px 60px;
     }
 
+    .errorblock .tanspar-btn span {
+        padding: 22px 50px;
+    }
 
 }
