@@ -4380,6 +4380,16 @@ header.noshadow {
     font-weight: bold;
 }
 
+.header.fixed .header__menu ul li.droplist:after,
+.header.whiteheader .header__menu ul li.droplist:after {
+    background-image: url(../img/icons/menuarr-black.svg);
+}
+
+.header.fixed .header__menu ul li.droplist:hover:after,
+.header.whiteheader .header__menu ul li.droplist:hover:after {
+    background-image: url(../img/icons/menuarr-green.svg);
+}
+
 
 /* 
 font-family: 'Montserrat', sans-serif;
