@@ -366,6 +366,9 @@ $(document).ready(function () {
 
 
 
+  $('.mobilemenu__header-body ul.mobilemenu__nav li').click(function(){
+    $(this).children('.submenu').slideToggle();
+  });
 
 
 

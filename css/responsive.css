@@ -133,9 +133,10 @@
 
 }
 
-
 @media(max-width:1600.8px) {
-
+    .general-fsect.thlist h1 {
+        font-size: 28px;
+    }
     .mainsection,
     .slidem-sect {
         min-height: 750px;
@@ -178,7 +179,8 @@
     }
 
 
-    .header__menu ul li a {
+    .header__menu ul li a,
+    .header__menu ul li {
         font-size: 16px;
     }
 
@@ -1229,6 +1231,21 @@
         padding: 22px 75px;
     }
 
+    .header__menu ul li .submenu {
+        width: 210px;
+    }
+
+    .header__menu ul li .submenu li a  {
+        line-height: normal;
+    }
+
+    .header__menu ul li .submenu li {
+        margin-bottom: 8px;
+    }
+
+    .header__menu ul li.droplist:after {
+        top: -1px;
+    }
 
 }
 
@@ -1340,7 +1357,8 @@
         bottom: 315px;
     }
 
-    .header__menu ul li a {
+    .header__menu ul li a,
+    .header__menu ul li {
         font-size: 14px;
     }
 
@@ -1716,7 +1734,8 @@
         margin-bottom: 30px;
     }
 
-    .mobilemenu__header-body ul.mobilemenu__nav li a {
+    .mobilemenu__header-body ul.mobilemenu__nav li a,
+    .mobilemenu__header-body ul.mobilemenu__nav li {
         font-weight: 500;
         font-size: 20px;
         line-height: 20px;
@@ -1729,8 +1748,11 @@
         -o-transition: .3s;
     }
 
-    .mobilemenu__header-body ul.mobilemenu__nav li a:hover,
-    .mobilemenu__header-body ul.mobilemenu__nav li.active a {
+    /* .mobilemenu__header-body ul.mobilemenu__nav li a:hover, */
+    .mobilemenu__header-body ul.mobilemenu__nav li.active a,
+    /* .mobilemenu__header-body ul.mobilemenu__nav li:hover, */
+    .mobilemenu__header-body ul.mobilemenu__nav li.active {
+        
         color: #9BC427;
     }
 
@@ -1786,7 +1808,7 @@
     }
 
     .mobilemenu__header-body {
-        margin-top: -40px;
+        /* margin-top: -40px; */
     }
 
     .mobilemenu-sectwrapp {
@@ -1917,6 +1939,53 @@
         font-size: 24px;
     }
 
+    .mobilemenu__header-body ul.mobilemenu__nav li .submenu {
+        padding: 30px 0 0 0;
+        margin: 0;
+        list-style-type: none;
+        display: none;
+    }
+    .mobilemenu__header-body ul.mobilemenu__nav li.droplist span {
+        position: relative;
+        display: inline-block;
+    }
+    .mobilemenu__header-body ul.mobilemenu__nav li.droplist span::before {
+        content: '';
+        display: inline-block;
+        width: 14px;
+        height: 7px;
+        background-image: url('../img/icons/menuarr.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: absolute;
+        top: 6.5px;
+        right: -20px;
+    }
+
+    .mobilemenu__header-body ul.mobilemenu__nav li {
+        position: relative;
+    }
+    .mobilemenu__header-body ul.mobilemenu__nav li .submenu li a {
+        font-size: 16px;
+    }
+
+    .mobilemenu__header-body ul.mobilemenu__nav li .submenu li {
+        margin-bottom: 15px;
+    }
+
+    .mobilemenu__header-body ul.mobilemenu__nav li .submenu li:last-child {
+        margin-bottom: 0;
+    }
+
+    .mobilemenu__header-body .lists-wrapp {
+        margin-bottom: 30px;
+    }
+    
+    .scrollsect {
+        min-height: 100%;
+        height: auto;
+    }
 
 }
 
@@ -2451,6 +2520,8 @@
 }
 
 @media(max-width:575.8px) {
+
+    
     .prtitlerow.show p:before {
         transform: rotate(-180deg) translateY(50%);
         -webkit-transform: rotate(-180deg) translateY(50%);
@@ -3208,7 +3279,8 @@
         margin-bottom: 45px;
     }
 
-    .mobilemenu__header-body ul.mobilemenu__nav li a {
+    .mobilemenu__header-body ul.mobilemenu__nav li a,
+    .mobilemenu__header-body ul.mobilemenu__nav li {
         font-size: 16px;
     }
 
@@ -4173,6 +4245,29 @@
         font-size: 14px;
     }
 
+    .mobilemenu__header-body ul.mobilemenu__nav li .submenu {
+        padding-top: 20px;
+    }
+
+    .scrollsect {
+        min-height: 100%;
+        height: auto;
+    }
+
+    .mobilemenu__header-body ul.mobilemenu__nav li .submenu li a {
+        font-size: 14px;
+    }
+
+    .mobilemenu__header-body ul.mobilemenu__nav li .submenu li {
+        margin-bottom: 10px;
+    }
+    .general-fsect.thlist h1 {
+        font-size: 20px;
+        line-height: 160%;
+    }
+    .general-fsect.thlist h1:after {
+        width: 135px;
+    }
 }
 
 @media(max-width:374.8px) {
