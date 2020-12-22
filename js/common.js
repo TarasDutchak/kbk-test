@@ -198,6 +198,23 @@ $(document).ready(function () {
     }
   });
 
+  $('#video-review button.close').click(function () {
+    $('.yvideo').each(function () {
+      var el_src = $(this).attr("src");
+      $(this).attr("src", el_src);
+    });
+  });
+
+  $(document).click(function (event) {
+    let $target = $(event.target);
+    if (!$target.closest('#video-review .modal-content').length) {
+      $('.yvideo').each(function () {
+        var el_src = $(this).attr("src");
+        $(this).attr("src", el_src);
+      });
+    }
+  });
+
   // // show more
   $('.advplus .phonemore span.more').click(function () {
     $('.advplus .row .col-lg-6:not(:first-child)').show();

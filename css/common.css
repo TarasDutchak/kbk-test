@@ -4398,6 +4398,48 @@ header.noshadow {
 
 /* 22,12 */
 
+.consultationmod button.close{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 15px;
+    height: 15px;
+    outline: none;
+}
+.consultationmod button.close img {
+    width: 100%;
+}
+
+.consultationmod .modal-content {
+    padding: 40px 50px 51px 50px;
+}
+
+.consultationmod form .title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.consultationmod form input {
+    outline: none;
+    font-size: 16px;
+    padding: 0 15px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.consultationmod form .tanspar-btn.greenbtn {
+    margin: 20px auto 0;
+    display: block;
+}
+
+
 
 
 

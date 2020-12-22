@@ -4456,3 +4456,33 @@
     }
 
 }
+
+
+
+
+/* 22,12 */
+
+@media(max-width:1024.8px) {
+    .consultationmod .tanspar-btn span {
+        padding: 16px 40px;
+    }
+}
+
+@media(max-width:575.8px) {
+    .consultationmod .modal-content {
+        padding: 30px 20px 41px 20px;
+    }
+
+    .consultationmod form .title {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .consultationmod form input {
+        height: 44px;
+    }
+
+    .consultationmod form .tanspar-btn.greenbtn {
+        max-width: calc(100% - 22px);
+    }
+}
