@@ -285,11 +285,13 @@
         line-height: 150%;
     }
 
-    #videopop.modal1 button.close {
+    #videopop.modal1 button.close,
+    #video-review button.close {
         right: -35px;
     }
 
-    #videopop.modal1 button.close img {
+    #videopop.modal1 button.close img,
+    #video-review button.close img {
         width: 20px;
     }
 
@@ -1681,7 +1683,8 @@
         margin-bottom: 40px;
     }
 
-    #videopop.modal1 .modal-dialog {
+    #videopop.modal1 .modal-dialog,
+    #video-review .modal-dialog {
         max-width: calc(100% - 150px);
     }
 
@@ -3255,18 +3258,21 @@
         max-width: 322px;
     }
 
-    #videopop.modal1 .modal-dialog {
+    #videopop.modal1 .modal-dialog,
+    #video-review .modal-dialog {
         max-width: 100%;
         max-height: 100vh;
     }
 
-    #videopop.modal1 button.close {
+    #videopop.modal1 button.close,
+    #video-review button.close {
         right: 2px;
         top: 2px;
         display: flex;
     }
 
-    #videopop.modal1 button.close img {
+    #videopop.modal1 button.close img,
+    #video-review button.close img {
         width: 16px;
     }
 

@@ -2188,21 +2188,25 @@ footer {
     text-align: center;
 }
 
-#videopop.modal1 .modal-dialog {
+#videopop.modal1 .modal-dialog,
+#video-review .modal-dialog {
     max-width: 926px;
 }
 
-#videopop.modal1 .modal-content {
+#videopop.modal1 .modal-content,
+#video-review .modal-content {
     border-radius: 0;
     background-color: #333333;
     border: none;
 }
 
-#videopop.modal1 .modal-sect {
+#videopop.modal1 .modal-sect,
+#video-review .modal-sect {
     border: 19px solid #4A4A4A;
 }
 
-#videopop.modal1 button.close {
+#videopop.modal1 button.close,
+#video-review button.close {
     position: absolute;
     z-index: 2;
     opacity: 1;
@@ -2216,7 +2220,8 @@ footer {
     -o-transition: .3s;
 }
 
-#videopop.modal1 button.close:hover {
+#videopop.modal1 button.close:hover,
+#video-review button.close:hover {
     opacity: .6;
 }
 
@@ -4389,6 +4394,13 @@ header.noshadow {
 .header.whiteheader .header__menu ul li.droplist:hover:after {
     background-image: url(../img/icons/menuarr-green.svg);
 }
+
+
+/* 22,12 */
+
+
+
+
 
 
 /* 
