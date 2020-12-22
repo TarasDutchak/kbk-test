@@ -375,7 +375,7 @@ $(document).ready(function () {
 
 
 
-  $('#telnum').inputmask({
+  $('#telnum, #telnum-cons').inputmask({
     "mask": "(999) 999-9999",
     showMaskOnHover: false,
     showMaskOnFocus: false,
