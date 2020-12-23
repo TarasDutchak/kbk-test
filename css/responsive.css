@@ -2726,7 +2726,7 @@
     }
 
     .keyhouse .row.khouse .col-md-6:nth-last-child(-n+3) {
-        display: none;
+        /* display: none; */
     }
 
     .tanspar-btn span,
