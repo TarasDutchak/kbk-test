@@ -4485,4 +4485,8 @@
     .consultationmod form .tanspar-btn.greenbtn {
         max-width: calc(100% - 22px);
     }
+    
+   .project-section.turnkeysect .turnkeypics .turnkeypics__picbox {
+        height: 120px;
+    }
 }
