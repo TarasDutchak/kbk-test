@@ -4468,3 +4468,115 @@ body {
 font-family: 'Montserrat', sans-serif;
 font-family: 'Rubik', sans-serif;
 */
+
+
+
+/* 11,01 */
+
+.posttext-section.post-body .act p {
+    padding: 24px 30px;
+    border: 1px solid #9BC427;
+    margin-bottom: 30px;
+}
+.posttext-section.post-body .col-md-6  p,
+.posttext-section.post-body .col-md-6  h1,
+.posttext-section.post-body .col-md-6  h2,
+.posttext-section.post-body .col-md-6  h3,
+.posttext-section.post-body .col-md-6  h4,
+.posttext-section.post-body .col-md-6  h5,
+.posttext-section.post-body .col-md-6 h6 {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    line-height: 170%;
+    color: #181818;
+}
+
+.posttext-section.post-body .col-md-6  ul,
+.posttext-section.post-body .col-md-6  ol {
+    padding-left: 52px;
+    font-size: 20px;
+}
+
+.posttext-section.post-body .col-md-6  a,
+.posttext-section.post-body .col-md-6  p a {
+    color: #9BC427;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.posttext-section.post-body .col-md-6 p a:hover {
+    text-decoration: none;
+}
+
+.posttext-section.post-body .col-md-6 blockquote {
+    font-size: 20px;
+}
+
+@media(max-width:1600.8px) {
+    .posttext-section.post-body .col-md-6  p,
+    .posttext-section.post-body .col-md-6  h1,
+    .posttext-section.post-body .col-md-6  h2,
+    .posttext-section.post-body .col-md-6  h3,
+    .posttext-section.post-body .col-md-6  h4,
+    .posttext-section.post-body .col-md-6  h5,
+    .posttext-section.post-body .col-md-6 h6 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .posttext-section.post-body .col-md-6 ul, .posttext-section.post-body .col-md-6 ol {
+        padding-left: 40px;
+        font-size: 16px;
+    }
+
+    .posttext-section.post-body .col-md-6 a, .posttext-section.post-body .col-md-6 p a {
+        font-size: 16px;
+    }
+
+    .postsection h2 {
+        font-size: 26px;
+    }
+    .postsection h3 {
+        font-size: 24px;
+    }
+    .postsection h4 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width:575.8px) {
+    .posttext-section.post-body .col-md-6 p, .posttext-section.post-body .col-md-6 h1, .posttext-section.post-body .col-md-6 h2, .posttext-section.post-body .col-md-6 h3, .posttext-section.post-body .col-md-6 h4, .posttext-section.post-body .col-md-6 h5, .posttext-section.post-body .col-md-6 h6 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .postsection h2 {
+        font-size: 19px;
+    }
+
+    .postsection h3 {
+        font-size: 18px;
+    }
+
+    .postsection h4 {
+        font-size: 17px;
+    }
+
+    .postsection h5 {
+        font-size: 16px;
+    }
+    .posttext-section.post-body .col-md-6 ul, .posttext-section.post-body .col-md-6 ol {
+        font-size: 13px;
+        padding-left: 18px;
+    }
+
+    .posttext-section.post-body .col-md-6 a, .posttext-section.post-body .col-md-6 p a {
+        font-size: 13px;
+    }
+
+
+
+
+
+}
