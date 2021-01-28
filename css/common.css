@@ -4580,3 +4580,16 @@ font-family: 'Rubik', sans-serif;
 
 
 }
+
+.slick-slide img.mobileslide {
+    display: none;
+}
+
+@media(max-width:575.8px) {
+    .slick-slide img.mobileslide {
+        display: block;
+    }
+    .slick-slide img.desktopslide {
+        display: none;
+    }
+}
