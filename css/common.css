@@ -4593,3 +4593,29 @@ font-family: 'Rubik', sans-serif;
         display: none;
     }
 }
+
+/* Доробки сторінки "ЦІНА" - 19,04 */
+
+.price-table .page__subtitle {
+    margin-bottom: 70px;
+}
+
+.pricevideosection {
+    margin-bottom: 70px;
+}
+
+.pricevideosection h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #181818;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.pricevideosection .rew__bigslide .picsect {
+    max-width: 100%;
+}

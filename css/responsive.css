@@ -4490,3 +4490,36 @@
         height: 120px;
     }
 }
+
+
+
+/* Доробки сторінки "ЦІНА" - 19,04 */
+
+
+@media(max-width:1600.8px) {
+    .pricevideosection h2 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width:1400.8px) {
+    .pricevideosection .rew__bigslide .picsect {
+        height: 300px;
+    }
+}
+@media(max-width:1199.8px) {
+    .pricevideosection h2 {
+        font-size: 18px;
+        padding-right: 0;
+    }
+
+    .pricevideosection .rew__bigslide .picsect {
+        height: 250px;
+    }
+}
+
+@media(max-width:767.8px) {
+    .pricevideosection h2 {
+        margin-bottom: 20px;
+    }
+}
